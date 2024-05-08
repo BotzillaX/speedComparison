@@ -6,6 +6,7 @@ import pyautogui as py
 py.FAILSAFE = False
 import ctypes
 user32 = ctypes.WinDLL('user32', use_last_error=True)
+import keyboard
 
 
 
@@ -27,12 +28,12 @@ def keyComparison():
 
 
 def keyPyautogui():
-    py.typewrite("""hello my name is""")
+    keyboard.write("""hello my name is""")
 
 
 # keyComparison(text)
 
-getTime(keyComparison, 1)
-getTime(keyPyautogui, 1)
+getTime(keyComparison, 30)
+getTime(keyPyautogui, 30)
 
-hello my name ishello my name is
+
