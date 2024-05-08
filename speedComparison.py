@@ -1,16 +1,15 @@
 from time import time
 
-
-
 def getTime(func, executionRepeat):
     result = 0.0
     for i in range(executionRepeat):
-        start_zeit = time()
+        startTime = time()
         func()
-        end_zeit = time()
-        result += end_zeit - start_zeit
-    result = result/executionRepeat
-    print(f"Ausführungszeit ohne Library: {result} Sekunden")
+        endTime = time()
+        result += endTime - startTime
+    result /= executionRepeat
+    print("Execution took: {:.10f} seconds".format(result))
+
 
 
 
