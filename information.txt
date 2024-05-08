@@ -1,0 +1,24 @@
+
+import pyautogui vs import ctypes:
+
+    ctypes is up to 10.000 times faster than pyautogui.moveTo().
+
+
+
+
+import keyboard vs import ctypes:
+    
+    Keyboard.write is 50% faster than ctypes
+
+
+
+
+
+
+
+
+
+TODO next:
+
+
+    compare pixel detection

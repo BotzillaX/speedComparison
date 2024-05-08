@@ -12,6 +12,8 @@ import keyboard
 
 
 
+
+
 def keyComparison():
     KEYEVENTF_KEYDOWN = 0x0
     KEYEVENTF_KEYUP = 0x2
