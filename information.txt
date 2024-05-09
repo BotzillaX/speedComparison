@@ -12,8 +12,9 @@ import keyboard vs import ctypes:
 
 
 
+import pyautogui vs import oldMethode:
 
-
+    pyautogui is 50% faster
 
 
 
